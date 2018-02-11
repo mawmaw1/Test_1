@@ -7,16 +7,16 @@ How-to:
 
 ```
 node app 4 3 8
-> Scalene triangle
+> Your triangle is scalene
 ```
 ```
 node app 5 5 8
-> Isosceles triangle
+> Your triangle is isosceles
 ```
 
 ```
 node app h h h 
-> Equilateral triangle
+> Your triangle is equilateral
 ```
 
 Any value is accepted.
