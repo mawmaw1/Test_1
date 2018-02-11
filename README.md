@@ -1,6 +1,25 @@
 # Test_1
 
+How-to:
 
+1. Clone repo
+2. Go to project root
+
+```
+node app 4 3 8
+> Scalene triangle
+```
+```
+node app 5 5 8
+> Isosceles triangle
+```
+
+```
+node app h h h 
+> Equilateral triangle
+```
+
+Any value is accepted.
 
 | Test case ID | Test case description                                                                | Prerequisites | Test steps               | Test data               | expected result                                                  | actual result                         | status  |
 |--------------|--------------------------------------------------------------------------------------|---------------|--------------------------|-------------------------|------------------------------------------------------------------|---------------------------------------|---------|
@@ -13,3 +32,7 @@
 | Test case ID | Test case description                                                                              | Prerequisites | Test steps               | Test data               | expected result                                                                     | actual result                       | status  |
 |--------------|----------------------------------------------------------------------------------------------------|---------------|--------------------------|-------------------------|-------------------------------------------------------------------------------------|-------------------------------------|---------|
 | TC3          | The objective is to verify that  2 equal and 1 different inputs will return a  isoscelene triangle | open program  | The user inputs 3 values | any values are accepted | if 2 values are equal and 1 value different program will return iscosclene triangle | program returned isosclene triangle | success |
+
+| Test case ID | Test case description                                                                      | Prerequisites | Test steps                                 | Test data               | expected result                                           | actual result | status  |
+|--------------|--------------------------------------------------------------------------------------------|---------------|--------------------------------------------|-------------------------|-----------------------------------------------------------|---------------|---------|
+| TC4          | The objective is to verify that  program will fail if less or more than 3 values are input | open program  | The user inputs less or more than 3 values | any values are accepted | program fails, and user is notified of his/her wrongdoing | program fails | success |
